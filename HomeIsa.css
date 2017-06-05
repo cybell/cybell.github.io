@@ -1,0 +1,235 @@
+*{
+	box-sizing:border-box;
+	padding:0;
+}
+
+body {
+background-image: url("img/bgC.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 125%;
+background-color: hotpink;
+}
+/*quito el verde*/
+#container{
+	border: solid green 0px;
+	width: 75%;
+	margin: auto;
+}
+/*quito borde de imagenes*/
+img { margin: auto;
+	 border: 0px solid black;
+}
+.cartel{ width:80%;
+}
+/*quito el amarillo*/
+.tabla{
+	border: solid yellow 0px;
+	text-align:center;
+}
+.piePagina{
+text-align:center;
+}
+.SSNicons{
+margin:auto;
+width: 150px;
+border: solid red 2px;
+}
+
+.iconors{
+	width:50px;
+	height:50px;
+}
+
+.lorem{
+	font-size: 25px;
+	border: 2px solid orange;
+	text-align: justify;
+}
+.boton {
+	display: inline-block;
+    background-image: url("twitterL.jpg");
+    color: #FFFFFF;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    margin-left: 15px;
+    opacity: 0.9;
+	border: solid 2px black;
+}
+
+/*header box*/
+ #header { 
+	width:100%;
+  
+	background: url(img/headerC.jpg) left top 20% #000000 ;
+    background-repeat: no-repeat;
+	background-size: contain;
+	margin: auto;
+ }
+#header2 { 
+	width:100%;
+  
+	background: url(img/headerDE.jpg) left top 20% #000000 ;
+    background-repeat: no-repeat;
+	background-size: contain;
+	margin: auto;
+	
+}
+#header3 { 
+	width:100%;
+  
+	background: url(img/headerMO.jpg) left top 20% #000000 ;
+    background-repeat: no-repeat;
+	background-size: contain;
+	margin: auto;
+	
+}
+#header4 { 
+	width:100%;
+  
+	background: url(img/headerRE.jpg) left top 20% #000000 ;
+    background-repeat: no-repeat;
+	background-size: contain;
+	margin: auto;
+	
+}
+#header5 { 
+	width:100%;
+  
+	background: url(img/headerUN.jpg) left top 20% #000000 ;
+    background-repeat: no-repeat;
+	background-size: contain;
+	margin: auto;
+	
+}
+#header6 { 
+	width:100%;
+  
+	background: url(img/headerAB.jpg) left top 20% #000000 ;
+    background-repeat: no-repeat;
+	background-size: contain;
+	margin: auto;
+	
+}
+#header7 { 
+	width:100%;
+  
+	background: url(img/headerAN.jpg) left top 20% #000000 ;
+    background-repeat: no-repeat;
+	background-size: contain;
+	margin: auto;
+	
+}
+
+/*botones*/
+.but {
+width: 110px;
+font-family: Arial;
+}
+.but {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.but:hover {
+    background-color: #00ff99; /* Green */
+    color: white;
+}
+/*QUITO ROJO?*/
+#buttons{
+	text-align: right;
+	height: 150px;
+
+	padding-top: 20px;
+	border: solid red 0px;
+}
+
+#buttons a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+    margin-right: 50px;
+	margin-left: 5px;
+	text-decoration: none;
+	color: #FFFFFF;
+	text-align: center;
+	border: solid red 0px;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link green link*/
+a:hover {
+    color: #00ff99;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+.capaprin{
+	width: 300px;
+	height: 300px;
+}
+
+#capa1{
+	background-color:red;
+}
+
+#capa2{
+	background-color:blue;
+}
+
+#capa3{
+	background-color:green;
+}
+
+
+/* MODAL */
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: red;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
